@@ -1,0 +1,43 @@
+body {
+    background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jugador {
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+.jugador label {
+    color: white;
+}
+
+.jugador input {
+    color: black;
+}
+
+.carta-container {
+    margin-top: 20px;
+    align-items: center;
+}
+
+.resultado {
+    text-align: center;
+    margin-top: 50px; 
+    color: white;
+}
